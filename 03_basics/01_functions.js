@@ -1,4 +1,4 @@
-sayMyName()
+
 function sayMyName(){                 // this way is called function declaration
     console.log('D');
     console.log('H');

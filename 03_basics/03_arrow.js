@@ -14,8 +14,16 @@
 
 // console.log(this)   // this is empty in node but window in browser 
 
-function random(){
-    const username = 'dhairya'
-    console.log(this.username)    // cannot access in function
+// function random(){
+//     const username = 'dhairya'
+//     console.log(this.username)    // cannot access in function
+// }
+// random()
+
+
+const random = () => {           // this is how to declare arrow function
+    const usernmame =  'hitesh'
 }
-random()
+
+
+const addTwo = (num1,num2) => num1+num2  // implicit return 
